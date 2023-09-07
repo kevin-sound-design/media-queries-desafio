@@ -264,21 +264,25 @@ footer p{
         width: 90vw;
         overflow-x: hidden;
         overflow-x: scroll;
-    
+        padding-left: 20px;
+
     }
     
     .cards{
     
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        min-width: 82.5vw;
+        grid-template-columns: repeat(4, minmax(250px, 380px));
+        grid-template-rows: repeat(2, 30rem);
+        min-width: 0;
+        width: 90vw;
+        gap: 40px 30px;
 
     }
     
     .cards-items{
 
-        height: 500px;
-        width: 300px;
+        height: 100%;
+        width: 100%;
+        
         
     }
     
@@ -286,6 +290,7 @@ footer p{
     
         height: 80%;
         width: 100%;
+        padding-top: 0;
         
     }
     
