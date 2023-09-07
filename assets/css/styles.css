@@ -217,7 +217,7 @@ footer p{
     nav{
 
         height: 85vh;
-        width: 10vw;
+        width: 180px;
         flex-direction: column;
         justify-content: flex-start;
     
@@ -240,6 +240,7 @@ footer p{
     footer{
 
         height: 15vh;
+        width: 212px;
         
     }
     
@@ -261,6 +262,8 @@ footer p{
 
         height: 90vh;
         width: 90vw;
+        overflow-x: hidden;
+        overflow-x: scroll;
     
     }
     
