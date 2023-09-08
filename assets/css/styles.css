@@ -261,20 +261,21 @@ footer p{
     main{
 
         height: 90vh;
-        width: 90vw;
+        width: 96%;
         overflow-x: hidden;
         overflow-x: scroll;
         padding-left: 20px;
+        padding-right: 20px;
 
     }
     
     .cards{
     
-        grid-template-columns: repeat(4, minmax(250px, 380px));
-        grid-template-rows: repeat(2, 30rem);
+        grid-template-columns: repeat(4, minmax(190px, 380px));
+        grid-template-rows: repeat(2, minmax(15rem, 30rem));
         min-width: 0;
-        width: 90vw;
-        gap: 40px 30px;
+        width: 100%;
+        gap: 40px 20px;
 
     }
     
@@ -282,15 +283,17 @@ footer p{
 
         height: 100%;
         width: 100%;
+        border: solid 1px black;
         
         
     }
     
     .cards-items img{
     
-        height: 80%;
+        height: 100%;
         width: 100%;
         padding-top: 0;
+        object-fit: cover;
         
     }
     
